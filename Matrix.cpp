@@ -88,7 +88,7 @@ void matrix::converthalfCSC()
 }      //half CSC COMPLETE:  VAL,I,col_ptr
 
 
-
+/*
 
 void matrix::convertfullCSC()
 {
@@ -128,7 +128,7 @@ void matrix::convertfullCSC()
 	}
 
 }
-
+*/
 void matrix::generateetree()
 {
 	struct Etree* etree=createEtree(m);
