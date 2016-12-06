@@ -179,7 +179,7 @@ void matrix::cholesky()
 	vector <int>::const_iterator c1;
 	vector <int>::const_iterator c2;
 	cout<<"insert fill in"<<endl;
-//for(int k=0;k<xx.size();k++)
+/*for(int k=0;k<xx.size();k++)
 	for(c1=xx.begin(),c2=yy.begin();c1!=xx.end()&&c2!=yy.end();++c1,++c2)
 	{
 		for(int i=0;i<m;i++)
@@ -205,7 +205,7 @@ void matrix::cholesky()
 	output(newi);
 	output(newcol_ptr);
 	output(newval);
-	clock_t begin = clock();
+	clock_t begin = clock();*/
 	for(int i=0;i<m;i++)
 	{
 //		cout<<i<<"th column "<<endl;
